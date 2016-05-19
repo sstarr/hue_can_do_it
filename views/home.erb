@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hue Can Do It!</title>
+  </head>
+  <body>
+    <form action="/" method="POST">
+      <label for="hex">Pick:</label>
+      <input name="hex" type="text" maxlength="6" value="<%= params[:hex] %>">
+      <br />
+      <label>And click:</label>
+      <input type="submit">
+    </form>
+  </body>
+</html>
